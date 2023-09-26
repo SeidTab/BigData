@@ -83,3 +83,45 @@
 # print(bois)
 # print(len(bois))
 
+# aTuple = ('chêne', 15, ["plaine", 1200])
+# print(aTuple)
+
+# dico = {'1': 'snake', '3': 'cats', '2': 'fish', '4': 'hamsters'}
+# print(dico)
+# print(dico.keys())
+# print(dico.values())
+# print(len(dico))
+#
+# for key in dico.keys():
+#     print(key)
+#
+# for val in dico.values():
+#     print(val)
+#
+# for keyVal in dico.items():
+#     print(keyVal)
+
+# x = set('abcd')
+# y = set('bdx')
+#
+# print('c' in x)  # True
+# print(x - y)  # {'a', 'c'}
+# print(x | y)  # {'b', 'c', 'a', 'x', 'd'}
+# print(x & y)  # {'b', 'd'}
+
+# a = [1, 2, 3]
+# b = a
+# b.append(4)
+# print(b)  # [1, 2, 3, 4]
+#
+# import copy
+# a = [1, 2, 3]
+# b = a
+# b.append(4)
+# # print(a)
+# c = copy.copy(a)
+# c.append(5)
+# print(a) # [1, 2, 3, 4]
+# print(b) # [1, 2, 3, 4]
+# print(c) # [1, 2, 3, 4, 5]
+
