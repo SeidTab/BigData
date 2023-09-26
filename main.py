@@ -1,4 +1,4 @@
-# x = int(input("entrez une valeur entière:"))
+# x = int(input("entrez une valeur entière:")) contraint int
 # print(x)
 # c1 = "L'information de la chaîne"
 # c2 = 'avec des "apostrophes" !!'
@@ -64,3 +64,22 @@
 # print(numbers[:3])
 # print(numbers[:])
 # print(numbers[-1])
+
+# chose = [2] * 5
+# print(chose)
+# chose = [*range(2, 11, 2)]  # crée la liste [2, 4, 6,]
+# print(chose)
+
+# bois = ['chêne', 'acacia', 'peuplier']
+# bois[2:2] = ['platane']
+# print(bois)
+# bois[4:4] = ['bouleau']
+# print(bois)
+# bois[2:4] = []
+# print(bois)
+# bois[1:3] = ['sapin']
+# print(bois)
+# bois[3:] = ['châtaigné', 'pommier', 'poirier']
+# print(bois)
+# print(len(bois))
+
