@@ -37,3 +37,30 @@
 # x = 25
 # print("%d en base 8: %o" % (x,x))
 # print("%d en base 8: %x" % (x,x))
+
+#
+# couleurs = ['rouge', 'vert', 'bleu', 'jaune']
+# print(couleurs)
+# print(couleurs[2])
+# couleurs[1] = 7
+# print(couleurs)
+#
+# list1 = [1, 2, 3, 5.0]
+# list2 = ['a', 'b', 'c']
+# list3 = [list1, list2]
+# print(list3)
+
+# numbers = [5, 1, 9,30,18,55,24]
+# numbers.sort()
+# print(numbers)
+# numbers.append(10)
+# print(numbers)
+# numbers.reverse()
+# print(numbers)
+# print(numbers.index(30))
+# numbers.remove(30)
+# print(numbers)
+# print(numbers[1:3])
+# print(numbers[:3])
+# print(numbers[:])
+# print(numbers[-1])
