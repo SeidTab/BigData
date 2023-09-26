@@ -189,10 +189,19 @@ from MyClass import MyClass
 #         f.write(line)
 #         f.write('\n')
 
-# myObject = MyClass()
+myObject = MyClass()
 # print(dir(myObject))
 # print(myObject.INFO)
 # print(MyClass.x)
 # print(MyClass.y)
 # print(MyClass.__dict__)
 # print(dir(myObject))
+
+print(myObject)
+myObject._y = "ma chaine"
+print(myObject)
+# print(myObject.__z) # AttributeError: 'MyClass' object has no attribute '__z'
+myObject._y = "Suuper"
+myObject.__z = 155  # still 10
+print(myObject)
+print(myObject.__z)  # 155
