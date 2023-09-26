@@ -6,6 +6,7 @@
 #
 # p1 = 'une chaine \nen deux lignes'
 # print(len(p1))
+from MyClass import MyClass
 
 # r1 = r'une chaine \nen mode raw'
 # print(r1)
@@ -125,3 +126,73 @@
 # print(b) # [1, 2, 3, 4]
 # print(c) # [1, 2, 3, 4, 5]
 
+# x = int(input("entrez un entièr: "))
+# if x < 0:
+#     print(x, " est négatif:")
+# elif x % 2 == 0:
+#     print(x, " est positif et pair:")
+# else:
+#     print(x, " n'est ni négatif ni pair:")
+
+
+# cpt = 0
+# while x > 0:
+#     x = x // 2
+#     cpt += 1
+#     print("l'approximation de log2(x) est %d" % (cpt))
+#     n = int(input('Entrez un entier [1...10]: '))
+#     while (n < 1) or (n > 10):
+#         n = int(input('entrez un entier [1...10] SVP: '))
+
+# x = 0
+# result = []
+# for x in range(0, 20, 3):
+#     # if x % 2 == 0:
+#         result.append(x + 1)
+# print(result)
+
+# from math import sin
+#
+# for x in range(-3, 4):
+#     try:
+#         print('%.3f' % (sin(x)/x))
+#     except:
+#         print(1.0)
+
+# def add(*args):
+#     total = 0
+#     for x in args:
+#         total += x
+#     return total
+#
+#
+# print(add(5))  # 5
+# print(add(5, 10, 15))  # 30
+# print(add(55, 10000, 150, 0))  # 30
+# print(add(2, 3))
+# print(add(2, 3, 5))
+# print(add(2, 3, 5, 7))
+# print(add(2, 3, 5, 7, 9))
+
+# f = open(r"myFile.txt", "w")
+# s = 'some content'
+# f.write(s)
+# f.close()
+
+#
+# with open('readme.txt', 'w+') as f:
+#     f.write('readme')
+#
+# lines = ['Readme', 'How to write text files in Python']
+# with open('readme.txt', 'w+') as f:
+#     for line in lines:
+#         f.write(line)
+#         f.write('\n')
+
+# myObject = MyClass()
+# print(dir(myObject))
+# print(myObject.INFO)
+# print(MyClass.x)
+# print(MyClass.y)
+# print(MyClass.__dict__)
+# print(dir(myObject))
